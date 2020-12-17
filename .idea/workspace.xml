@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="539eb81f-5467-42c9-9d3d-61b22250bb1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/Feature/GoodsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/GoodsTest.php" afterDir="false" />
-    </list>
+    <list default="true" id="539eb81f-5467-42c9-9d3d-61b22250bb1a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,6 +174,7 @@
       <workItem from="1608144378663" duration="5442000" />
       <workItem from="1608206374371" duration="3080000" />
       <workItem from="1608209635609" duration="810000" />
+      <workItem from="1608214409374" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1608144480480</created>
@@ -191,7 +190,49 @@
       <option name="project" value="LOCAL" />
       <updated>1608210248939</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor goods_categories create">
+      <created>1608214462247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608214462247</updated>
+    </task>
+    <task id="LOCAL-00004" summary="clean">
+      <created>1608214471545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608214471545</updated>
+    </task>
+    <task id="LOCAL-00005" summary="rename update to save">
+      <created>1608214492447</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608214492447</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor delete">
+      <created>1608214524585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608214524585</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix model name">
+      <created>1608214595293</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608214595293</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Привёл удаление сущностей к общему виду">
+      <created>1608214695690</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608214695690</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,25 +243,31 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init commit" />
     <MESSAGE value="Поправил обновление категории&#10;Добавил инструкцию и файл конфигурации" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил обновление категории&#10;Добавил инструкцию и файл конфигурации" />
+    <MESSAGE value="refactor goods_categories create" />
+    <MESSAGE value="clean" />
+    <MESSAGE value="rename update to save" />
+    <MESSAGE value="refactor delete" />
+    <MESSAGE value="fix model name" />
+    <MESSAGE value="Привёл удаление сущностей к общему виду" />
+    <option name="LAST_COMMIT_MESSAGE" value="Привёл удаление сущностей к общему виду" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="291" y="125" width="1037" height="818" key="CommitChangelistDialog2" timestamp="1608210248597">
+    <state x="291" y="125" width="1037" height="818" key="CommitChangelistDialog2" timestamp="1608214695365">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="291" y="125" width="1037" height="818" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608210248597" />
-    <state x="34" y="96" key="DiffContextDialog" timestamp="1608210241520">
+    <state x="291" y="125" width="1037" height="818" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608214695365" />
+    <state x="34" y="96" key="DiffContextDialog" timestamp="1608214450679">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="34" y="96" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608210241520" />
+    <state x="34" y="96" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608214450679" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1608140831364">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608140831364" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1608210250340">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1608214701271">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608210250340" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608214701271" />
     <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1608144694826">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

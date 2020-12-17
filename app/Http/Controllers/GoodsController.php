@@ -123,7 +123,7 @@ class GoodsController extends Controller
             'id' => 'required|exists:goods',
         ]);
 
-        $goods = Goods::query()->whereKey($data['id'])->delete();
+        Goods::query()->whereKey($data['id'])->delete();
     }
 
     public function goodsList(GoodsCategories $cat, Request $request)
