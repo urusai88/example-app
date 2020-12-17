@@ -30,7 +30,6 @@ class GoodsController extends Controller
             'title' => $this->_goodsCategoriesTitleRule() . '|required',
         ]);
 
-        /** @var GoodsCategories $goodsCategory */
         $goodsCategory = new GoodsCategories();
         $goodsCategory->title = $data['title'];
         $goodsCategory->save();
