@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="539eb81f-5467-42c9-9d3d-61b22250bb1a" name="Default Changelist" comment="" />
+    <list default="true" id="539eb81f-5467-42c9-9d3d-61b22250bb1a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -122,15 +131,23 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lkUVjIPgSYGYB8V0kE4EtHz9IG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -150,16 +167,44 @@
       <option name="presentableId" value="Default" />
       <updated>1608140607336</updated>
       <workItem from="1608140608480" duration="223000" />
+      <workItem from="1608144378663" duration="5442000" />
+      <workItem from="1608206374371" duration="3080000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1608144480480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608144480480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="579" y="125" key="CommitChangelistDialog2" timestamp="1608144479649">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="579" y="125" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608144479649" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1608140831364">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608140831364" />
+    <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1608144694826">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="258" width="585" height="534" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608144694826" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1608146810105">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608146810105" />
   </component>
 </project>
