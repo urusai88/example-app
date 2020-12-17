@@ -60,7 +60,7 @@ class GoodsController extends Controller
             'id' => 'required|exists:goods_categories',
         ]);
 
-        DB::table('goods_categories')->delete($data['id']);
+        Goods::query()->whereKey($data['id'])->delete();
     }
 
     public function goodsCategoryList(Request $request)
