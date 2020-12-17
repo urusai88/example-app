@@ -31,13 +31,8 @@ class GoodsController extends Controller
         ]);
 
         /** @var GoodsCategories $goodsCategory */
-        $goodsCategory = GoodsCategories::unguarded(function () use ($data) {
-            $model = new GoodsCategories();
-            $model->fill($data);
-
-            return $model;
-        });
-
+        $goodsCategory = new GoodsCategories();
+        $goodsCategory->title = $data['title'];
         $goodsCategory->save();
 
         return $goodsCategory;

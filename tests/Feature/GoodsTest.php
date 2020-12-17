@@ -101,7 +101,6 @@ class GoodsTest extends TestCase
         $resp = $this->postJson('/api/goods/create', ['goods_categories_id' => [$cat2], 'title' => 'HOCO M60']);
         $goods2_3 = $resp->json('id');
 
-
         // list
         $this->getJson('/api/goods/list/10')->assertNotFound();
         $this->getJson('/api/goods/list')->assertNotFound();
@@ -116,7 +115,7 @@ class GoodsTest extends TestCase
         $this->postJson('/api/goods/delete', ['id' => 10])->assertStatus(422);
         $this->postJson('/api/goods/delete', ['id' => $goods2_2])->assertSuccessful();
         $this->postJson('/api/goods/delete', ['id' => $goods2_3])->assertSuccessful();
-        $resp = $this->getJson("/api/goods/list/$cat2")->assertSuccessful()->assertJsonCount(1);
+        $resp = $this->getJson("/api/goods/list/$cat2")->assertSuccessful()->assertJsonCount(1); // check modified list
         $this->assertTrue(data_get($resp->json()[0], 'id') == $goods2_1);
 
     }
