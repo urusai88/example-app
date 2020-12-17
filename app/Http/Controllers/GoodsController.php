@@ -9,6 +9,11 @@ use Illuminate\Support\Facades\DB;
 
 class GoodsController extends Controller
 {
+    protected function _goodsCategoriesTitleRule()
+    {
+        return 'string|min:2|unique:goods_categories,title';
+    }
+
     protected function _goodsTitleRule()
     {
         return 'string|min:2|unique:goods,title';
@@ -22,7 +27,7 @@ class GoodsController extends Controller
     public function goodsCategoryCreate(Request $request)
     {
         $data = $this->validate($request, [
-            'title' => 'required|string|min:2|unique:goods_categories,title',
+            'title' => $this->_goodsCategoriesTitleRule() . '|required',
         ]);
 
         /** @var GoodsCategories $goodsCategory */
@@ -42,12 +47,14 @@ class GoodsController extends Controller
     {
         $data = $this->validate($request, [
             'id' => 'required|exists:goods_categories',
-            'title' => 'required|string|min:2|unique:goods_categories,title',
+            'title' => $this->_goodsCategoriesTitleRule(),
         ]);
 
         /** @var GoodsCategories $goodsCategories */
         $goodsCategories = GoodsCategories::query()->findOrFail($data['id']);
-        $goodsCategories->title = $data['title'];
+        if (isset($data['title'])) {
+            $goodsCategories->title = $data['title'];
+        }
         $goodsCategories->update();
 
         return $goodsCategories;

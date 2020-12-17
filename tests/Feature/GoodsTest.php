@@ -25,7 +25,6 @@ class GoodsTest extends TestCase
 
         /// update
         $this->postJson("/api/goods_categories/update", ['id' => 0, 'title' => 'Notebooks'])->assertStatus(422);
-        $this->postJson("/api/goods_categories/update", ['id' => $id])->assertStatus(422);
 
         $resp = $this->postJson("/api/goods_categories/update", ['id' => $id, 'title' => 'Notebooks']);
         $resp->assertStatus(200);
