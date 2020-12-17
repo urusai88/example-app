@@ -49,7 +49,7 @@ class GoodsController extends Controller
         if (isset($data['title'])) {
             $goodsCategories->title = $data['title'];
         }
-        $goodsCategories->update();
+        $goodsCategories->save();
 
         return $goodsCategories;
     }
